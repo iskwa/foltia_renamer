@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoltiaRenamer", "FoltiaRenamer\FoltiaRenamer.csproj", "{D8212591-80E6-4090-BFAD-85364C739A74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestFoltiaRenamer", "UnitTestFoltiaRenamer\UnitTestFoltiaRenamer.csproj", "{A1CE6A50-D695-425C-9980-DE51BB0EA35A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoltiaRenamerUT", "FoltiaRenamerUT\FoltiaRenamerUT.csproj", "{4FC184FC-F946-4722-9EFC-984965E55C63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,10 @@ Global
 		{D8212591-80E6-4090-BFAD-85364C739A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8212591-80E6-4090-BFAD-85364C739A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8212591-80E6-4090-BFAD-85364C739A74}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A1CE6A50-D695-425C-9980-DE51BB0EA35A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A1CE6A50-D695-425C-9980-DE51BB0EA35A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A1CE6A50-D695-425C-9980-DE51BB0EA35A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A1CE6A50-D695-425C-9980-DE51BB0EA35A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FC184FC-F946-4722-9EFC-984965E55C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FC184FC-F946-4722-9EFC-984965E55C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FC184FC-F946-4722-9EFC-984965E55C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FC184FC-F946-4722-9EFC-984965E55C63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

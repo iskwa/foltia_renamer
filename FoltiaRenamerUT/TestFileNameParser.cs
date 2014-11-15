@@ -1,19 +1,21 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using FoltiaRenamer;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
-namespace UnitTestFoltiaRenamer
+namespace FoltiaRenamerUT
 {
-    [TestClass]
-    public class UnitTest1
+    public class TestFileNameParser
     {
-        [TestMethod]
-        public void TestMethod1()
+        [TestCase("0803-0030_魔法科高校の劣等生_18_九校戦編XI_HD_300047.MP4")]
+        public void ParseSampleTitle(string fileName)
         {
-            const string fileName = "0803-0030_魔法科高校の劣等生_18_九校戦編XI_HD_300047.MP4";
-
             var parser = new FileNameParser();
             var data = parser.Parse(fileName);
+            
             Assert.AreEqual("0803", data.Date);
             Assert.AreEqual("0030", data.Time);
             Assert.AreEqual("魔法科高校の劣等生", data.Title);
@@ -24,8 +26,8 @@ namespace UnitTestFoltiaRenamer
             Assert.AreEqual(".MP4", data.Extension);
         }
 
-        [TestMethod]
-        public void TestCreate1()
+        [Test]
+        public void CreateSampleFileName()
         {
             const string fileName = "0803-0030_魔法科高校の劣等生_18_九校戦編XI_HD_300047.MP4";
             var parser = new FileNameParser();
